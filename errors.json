@@ -1,0 +1,18 @@
+[
+    {
+        "error": "MODULE_NOT_FOUND",
+        "solution": "{author} Wygląda na to, że brakuje niektórych plików. Upewnij się, że wgrałeś poprawnie bota na serwer i zainstalowałeś wszystkie potrzebne moduły."
+    },
+    {
+        "error": "CLIENT_MISSING_INTENTS",
+        "solution": "{author} Zamiast```js\nconst Discord = require(\"discord.js\")\nconst client = new Discord.Client()```Użyj```js\nconst { Client, Intents } = require(\"discord.js\")\nconst client = new Client({\n    intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]\n})```"
+    },
+    {
+        "question": ["jaki","czas","oczekiwania"],
+        "solution": "{author} Serwer powinno nadać od razu jeżeli masz status oczekujący zgłoś się na <#835854285992362075>."
+    },
+    {
+        "question": ["jaki","czas","opłacenie"],
+        "solution": "{author} Jeżeli nie opłacisz serwera, to jest on blokowany, a po 3 dniach usuwany."
+    }
+]
