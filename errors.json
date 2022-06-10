@@ -14,5 +14,9 @@
     {
         "question": ["jaki","czas","opłacenie"],
         "solution": "{author} Jeżeli nie opłacisz serwera, to jest on blokowany, a po 3 dniach usuwany."
+    },
+    {
+        "error": "This server has been blocked from the FiveM platform",
+        "solution": "Wygląda na to, że FiveM zablokował ip twojego serwera. Zgłoś się na <#835854285992362075> w celu rozwiązania problemu."
     }
 ]
